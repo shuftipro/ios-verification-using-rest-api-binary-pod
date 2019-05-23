@@ -80,7 +80,7 @@ spec.source       = { :git => "https://github.com/shuftipro/ios-verification-usi
 #
 
 spec.ios.vendored_frameworks = 'ShuftiPro.framework'
-spec.swift_version = "4"
+spec.swift_version = "3"
 
 spec.source_files  = "ShuftiPro.framework/Headers/*.h"
 spec.exclude_files = "Classes/Exclude"
