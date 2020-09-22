@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 #
 
 spec.name         = "ShuftiPro"
-spec.version      = "1.0.10"
+spec.version      = "1.0.11"
 spec.summary      = "Shufti Pro is designed to verify documents in realtime."
 
 # This description is used to generate tags and improve search results.
@@ -79,12 +79,14 @@ spec.source       = { :git => "https://github.com/shuftipro/ios-verification-usi
 #  Not including the public_header_files will make all headers public.
 #
 
-spec.ios.vendored_frameworks = 'ShuftiPro.framework'
+spec.ios.vendored_frameworks = 'ShuftiPro.xcframework'
 spec.swift_version = "3"
 
-spec.source_files  = "ShuftiPro.framework/Headers/*.h"
-spec.exclude_files = "Classes/Exclude"
+# spec.source_files  = "ShuftiPro.xcframework/Headers/*.h"
+# spec.exclude_files = "Classes/Exclude"
 
-spec.public_header_files = "ShuftiPro.framework/Headers/*.h"
+# spec.public_header_files = "ShuftiPro.xcframework/Headers/*.h"
+
+# ShuftiPro.xcframework/ios-arm64_armv7/ShuftiPro.framework/Headers
 
 end
